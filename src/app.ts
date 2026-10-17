@@ -21,7 +21,7 @@ app.get('/api/health', (_request, response) => {
 
 app.get('/hello',(_request,response)=>{
   response.json({
-    message:'Hello',
+    message:'Hello i am from the future',
   });
 });
 export default app;
